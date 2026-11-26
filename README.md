@@ -12,3 +12,5 @@
   本项目是在win10 64位，MinGW版本的QT项目，opencv是MinGW编译的，为了跨平台，编译过程见以下博文
   https://blog.csdn.net/liangyuna8787/article/details/149693144?spm=1001.2014.3001.5502
 # 功能说明
+  本项目的视频读取和opengl图像渲染部分来自https://github.com/ocy-org/Dvrdemo，差异在于中文标签部分做了特殊处理。<br>
+  本项目支持选择摄像头，分辨率根据摄像头动态调整，支持选择真实的分辨率，开启摄像头之后自动进行物体识别。
